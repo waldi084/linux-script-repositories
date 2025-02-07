@@ -1,5 +1,7 @@
 # How to install GNS3 on Arch Based Linux</br>
 
+pacman -S --needed git base-devel
+
 **Install the following packages:**</br>
 yay -S gns3-server gns3-gui dynamips ubridge qemu docker wireshark-qt vpcs libvirt gperftools tigervnc
 
